@@ -1,0 +1,21 @@
+{
+  "name": "YuenDesign",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@iconify-json/ic": "^1.1.13",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "unocss": "^0.52.3",
+    "vite": "^4.3.2"
+  }
+}
