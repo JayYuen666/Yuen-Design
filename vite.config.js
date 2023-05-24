@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
-import Unocss from "unocss/vite";
+import Unocss from "./config/unocss";
 
 const rollupOptions = {
 
@@ -21,6 +21,7 @@ export default defineConfig({
   build: {
     rollupOptions,
     minify: false,
+    cssCodeSplit: true,
     lib: {
       entry: "./src/entry.ts",
       name: "YuenDesign",
