@@ -2,12 +2,11 @@
 <div id="app"></div>
 <script type="module">
   import { createApp } from "vue/dist/vue.esm-bundler.js";
-  import yuenDesign, { SFCButton, JSXButton } from "../../dist/yuen-design.esm.js";
+  import yuenDesign, { TSXButton } from "../../dist/yuen-design.esm.js";
 
   createApp({
     template: `
-      <JSXButton/>
-      <SFCButton/>
+      <TSXButton/>
     `}).use(yuenDesign).mount('#app')
 
 </script>

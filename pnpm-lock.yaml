@@ -1,6 +1,12 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  '@unocss/reset':
+    specifier: ^0.52.3
+    version: 0.52.3
+  plugin-vue^4.1.0:
+    specifier: link:@vitejs/plugin-vue^4.1.0
+    version: link:@vitejs/plugin-vue^4.1.0
   unocss:
     specifier: ^0.52.3
     version: 0.52.3(postcss@8.4.23)(vite@4.3.2)

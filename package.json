@@ -12,6 +12,7 @@
     "docs:serve": "vitepress serve docs"
   },
   "dependencies": {
+    "@unocss/reset": "^0.52.3",
     "plugin-vue^4.1.0": "link:@vitejs/plugin-vue^4.1.0",
     "unocss": "^0.52.3",
     "vue": "^3.2.47"

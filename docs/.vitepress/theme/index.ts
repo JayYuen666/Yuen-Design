@@ -1,5 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 import './styles/index.css'
+import '@unocss/reset/tailwind-compat.css'
 import YuenUI from '../../../src/entry'
 
 import 'vitepress-theme-demoblock/dist/theme/styles/index.css'
