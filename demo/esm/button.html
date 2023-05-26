@@ -3,14 +3,14 @@
 <script type="module">
     import { createApp } from "vue/dist/vue.esm-bundler.js";
     import {
-        TSXButton
+        Button
     } from "../../dist/yuen-design.esm.js";
 
     createApp({
         template: `
-<TSXButton/>
+<Button/>
 `,
     })
-        .component(TSXButton.name, TSXButton)
+        .component(Button.name, Button)
         .mount("#app");
 </script>

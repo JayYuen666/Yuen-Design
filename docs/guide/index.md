@@ -9,12 +9,12 @@
 :::demo 使用 `type`、`plain`、`round` 和 `circle` 属性来定义 Button 的样式。
 ```vue
 <template>
-  <TSXButton>默认按钮</TSXButton>
-  <TSXButton type="primary">主要按钮</TSXButton>
-  <TSXButton type="success">成功按钮</TSXButton>
-  <TSXButton type="info">信息按钮</TSXButton>
-  <TSXButton type="warning">警告按钮</TSXButton>
-  <TSXButton type="danger">危险按钮</TSXButton>
+  <Button>默认按钮</Button>
+  <Button type="primary">主要按钮</Button>
+  <Button type="success">成功按钮</Button>
+  <Button type="info">信息按钮</Button>
+  <Button type="warning">警告按钮</Button>
+  <Button type="danger">危险按钮</Button>
 </template>
 ```
 
@@ -27,12 +27,12 @@
 :::demo
 
 ```vue
-<TSXButton>默认按钮</TSXButton>
-<TSXButton type="primary">主要按钮</TSXButton>
-<TSXButton type="success">成功按钮</TSXButton>
-<TSXButton type="info">信息按钮</TSXButton>
-<TSXButton type="warning">警告按钮</TSXButton>
-<TSXButton type="danger">危险按钮</TSXButton>
+<Button>默认按钮</Button>
+<Button type="primary">主要按钮</Button>
+<Button type="success">成功按钮</Button>
+<Button type="info">信息按钮</Button>
+<Button type="warning">警告按钮</Button>
+<Button type="danger">危险按钮</Button>
 ```
 
 :::
@@ -44,12 +44,12 @@
 :::demo
 
 ```vue
-<TSXButton>默认按钮</TSXButton>
-<TSXButton type="primary">主要按钮</TSXButton>
-<TSXButton type="success">成功按钮</TSXButton>
-<TSXButton type="info">信息按钮</TSXButton>
-<TSXButton type="warning">警告按钮</TSXButton>
-<TSXButton type="danger">危险按钮</TSXButton>
+<Button>默认按钮</Button>
+<Button type="primary">主要按钮</Button>
+<Button type="success">成功按钮</Button>
+<Button type="info">信息按钮</Button>
+<Button type="warning">警告按钮</Button>
+<Button type="danger">危险按钮</Button>
 ```
 
 :::
