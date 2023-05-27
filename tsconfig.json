@@ -3,6 +3,12 @@
         "declaration": true, /* 生成相关的 '.d.ts' 文件。 */
         "declarationDir": "./dist/types", /* '.d.ts' 文件输出目录 */
         "jsx": "preserve",
+        "removeComments": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "noImplicitThis": true,
+        "strict": true,
+        "alwaysStrict": true,
     },
     "include": [
         "./**/*.*",

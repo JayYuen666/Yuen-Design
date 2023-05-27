@@ -148,6 +148,7 @@ module.exports = {
       'error',
       { allowShortCircuit: true, allowTernary: true, allowTaggedTemplates: true }
     ],
-    'no-param-reassign': ['error', { props: true, ignorePropertyModificationsForRegex: ['config'] }]
+    'no-param-reassign': ['error', { props: true, ignorePropertyModificationsForRegex: ['config'] }],
+    'vue/no-reserved-component-names': 'off'
   }
 };

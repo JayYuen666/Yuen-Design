@@ -42,6 +42,7 @@ export const props = {
 } as const;
 
 export default defineComponent({
+  name: 'Button',
   props,
   setup(props, { slots }) {
     const size = {
