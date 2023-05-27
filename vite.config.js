@@ -1,16 +1,16 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
-import Unocss from "./config/unocss";
+import Unocss from './config/unocss';
 
 const rollupOptions = {
 
-  external: ["vue", "vue-router"],
+  external: ['vue', 'vue-router'],
   output: {
     globals: {
-      vue: "Vue",
-    },
-  },
+      vue: 'Vue'
+    }
+  }
 };
 
 // https://vitejs.dev/config/
@@ -29,16 +29,32 @@ export default defineConfig({
     }
   },
 
+  server: {
+    port: 4000, // 设置服务启动端口号
+    open: true, // 设置服务启动时是否自动打开浏览器
+    cors: true // 允许跨域
+
+    // 设置代理，根据我们项目实际情况配置
+    // proxy: {
+    //   '/api': {
+    //     target: 'http://xxx.xxx.xxx.xxx:8000',
+    //     changeOrigin: true,
+    //     secure: false,
+    //     rewrite: (path) => path.replace('/api/', '/')
+    //   }
+    // }
+  },
+
   build: {
     rollupOptions,
     minify: false,
     cssCodeSplit: true,
     lib: {
-      entry: "./src/entry.ts",
-      name: "YuenDesign",
-      fileName: "yuen-design",
+      entry: './src/entry.ts',
+      name: 'YuenDesign',
+      fileName: 'yuen-design',
       // 导出模块格式
-      formats: ["esm", "umd", "iife"],
-    },
-  },
+      formats: ['esm', 'umd', 'iife']
+    }
+  }
 })
