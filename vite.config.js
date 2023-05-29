@@ -47,7 +47,8 @@ export default defineConfig({
 
   build: {
     rollupOptions,
-    minify: false,
+    minify: 'terser',
+    brotliSize: true,
     cssCodeSplit: true,
     lib: {
       entry: './src/entry.ts',
